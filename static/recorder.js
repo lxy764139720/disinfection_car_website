@@ -20,7 +20,7 @@ buttonRecord.onclick = function () {
             alert(xhr.responseText);
         }
     }
-    xhr.open("POST", "/record_status");
+    xhr.open("POST", "/disinfection_car/record_status");
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.send(JSON.stringify({status: "true"}));
 };
@@ -41,7 +41,7 @@ buttonStop.onclick = function () {
             downloadLink.href = "/static/video.avi";
         }
     }
-    xhr.open("POST", "/record_status");
+    xhr.open("POST", "/disinfection_car/record_status");
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.send(JSON.stringify({status: "false"}));
 };

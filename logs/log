@@ -149,3 +149,137 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:26:11] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:26:14] "[37mGET / HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:26:14] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:41:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR D:\anaconda\envs\network\lib\site-packages\flask\app.py:1891 Exception on /disinfection_car/login [GET]
+Traceback (most recent call last):
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python\disinfection_car_website\app.py", line 46, in login
+    return render_template("login.html")
+  File "D:\anaconda\envs\network\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "D:\anaconda\envs\network\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "D:\anaconda\envs\network\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "D:\anaconda\envs\network\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "D:\anaconda\envs\network\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\python\disinfection_car_website\templates\login.html", line 44, in top-level template code
+    <form method="post" action="{{ url_for("user.login") }}">
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "D:\anaconda\envs\network\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user.login'. Did you mean 'login' instead?
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:41:31] "[35m[1mGET /disinfection_car/login HTTP/1.1[0m" 500 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:43:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:43:16] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+ERROR D:\anaconda\envs\network\lib\site-packages\flask\app.py:1891 Exception on /disinfection_car/login [POST]
+Traceback (most recent call last):
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python\disinfection_car_website\app.py", line 58, in login
+    return redirect(url_for("home.index"))
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "D:\anaconda\envs\network\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'home.index'. Did you mean 'index' instead?
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:43:18] "[35m[1mPOST /disinfection_car/login HTTP/1.1[0m" 500 -
+ERROR D:\anaconda\envs\network\lib\site-packages\flask\app.py:1891 Exception on /disinfection_car/login [POST]
+Traceback (most recent call last):
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python\disinfection_car_website\app.py", line 43, in login
+    return redirect(url_for("home.index"))
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "D:\anaconda\envs\network\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\anaconda\envs\network\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "D:\anaconda\envs\network\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'home.index'. Did you mean 'index' instead?
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:44:46] "[35m[1mPOST /disinfection_car/login HTTP/1.1[0m" 500 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:21] "[32mGET /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:21] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:24] "[37mGET /disinfection_car/video_viewer HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:26] "[33mPOST /record_status HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:45:34] "[33mPOST /record_status HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:46:50] "[32mGET /disinfection_car/logout HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [14/Mar/2021 15:46:50] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:17:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:17:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[32mGET /disinfection_car/home HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/avtar.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/close.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/adm.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/pass.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:03] "[36mGET /static/images/key.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:05] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:05] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:05] "[37mGET /static/recorder.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:08] "[37mGET /disinfection_car/video_viewer HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:19] "[37mPOST /disinfection_car/record_status HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:32] "[37mPOST /disinfection_car/record_status HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:38] "[37mGET /static/video.avi HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:18:41] "[37mGET /static/video.avi HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:19:19] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [15/Mar/2021 00:19:19] "[37mGET /disinfection_car/video_viewer HTTP/1.1[0m" 200 -

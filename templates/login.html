@@ -41,7 +41,7 @@
     <div class="avtar">
         <img src="../static/images/avtar.png"/>
     </div>
-    <form method="post" action="{{ url_for("user.login") }}">
+    <form method="post" action="{{ url_for("login") }}">
         <input type="text" class="text" name="username" value="Username" onfocus="this.value = '';"
                onblur="if (this.value == '') {this.value = 'Username';}">
         <div class="key">
