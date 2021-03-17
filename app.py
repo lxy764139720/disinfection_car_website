@@ -68,23 +68,23 @@ def video_viewer():
     return Response(video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
-# 录制状态
-@app.route('/disinfection_car/record_status', methods=['POST'])
-def record_status():
-    global video_camera
-    if video_camera is None:
-        video_camera = VideoCamera()
-
-    json = request.get_json()
-
-    status = json['status']
-
-    if status == "true":
-        video_camera.start_record()
-        return jsonify(result="started")
-    else:
-        video_camera.stop_record()
-        return jsonify(result="stopped")
+# # 录制状态
+# @app.route('/disinfection_car/record_status', methods=['POST'])
+# def record_status():
+#     global video_camera
+#     if video_camera is None:
+#         video_camera = VideoCamera()
+#
+#     json = request.get_json()
+#
+#     status = json['status']
+#
+#     if status == "true":
+#         video_camera.start_record()
+#         return jsonify(result="started")
+#     else:
+#         video_camera.stop_record()
+#         return jsonify(result="stopped")
 
 
 # 获取视频流
@@ -96,7 +96,7 @@ def video_stream():
         video_camera = VideoCamera()
 
     while True:
-        frame = video_camera.get_frame()
+        frame = video_camera.get_inferred_frame('', conf_thresh=0.5)
 
         if frame is not None:
             global_frame = frame
