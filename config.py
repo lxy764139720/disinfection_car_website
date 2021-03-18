@@ -1,7 +1,10 @@
 import logging
 from logging.handlers import RotatingFileHandler
+import eventlet
 from flask import Flask
 from datetime import timedelta
+from flask_mqtt import Mqtt
+from flask_socketio import SocketIO
 
 
 class Config:
@@ -11,6 +14,13 @@ class Config:
     SECRET_KEY = "disinfection_car"
     # session过期时间
     PERMANENT_SESSION_LIFETIME = timedelta(days=7)
+    TEMPLATES_AUTO_RELOAD = True
+    MQTT_BROKER_URL = '106.15.92.226'
+    MQTT_BROKER_PORT = 8083
+    MQTT_USERNAME = ''
+    MQTT_PASSWORD = ''
+    MQTT_KEEPALIVE = 5
+    MQTT_TLS_ENABLED = False
 
 
 class DevelopmentConfig(Config):
@@ -50,12 +60,15 @@ def setup_log(log_level):
 
 # 工厂函数: 由外界提供物料, 在函数内部封装对象的创建过程
 def create_app(config_type):  # 封装web应用的创建过程
+    eventlet.monkey_patch()
     # 根据类型取出对应的配置子类
     config_class = config_dict[config_type]
     app = Flask(__name__)
     app.config.from_object(config_class)
+    mqtt = Mqtt(app)
+    socketio = SocketIO(app)
 
     # 设置日志
     setup_log(config_class.LOG_LEVEL)
 
-    return app
+    return app, mqtt, socketio

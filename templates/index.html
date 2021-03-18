@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>监控系统</title>
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js"
+            integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='recorder.js') }}"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='mqtt.js') }}"></script>
     <style>
         body {
             background-color: #484856;
         }
-
     </style>
 </head>
 <body>
@@ -19,14 +24,15 @@
     <div class="recorder" id="recorder" align="center">
         <!-- <button id="record" class="btn">录制视频</button>
         <button id="stop" class="btn">暂停录制</button> -->
+        <button id="subscribe" class="btn" onclick="subscribe()">订阅</button>
+        <button id="publish" class="btn" onclick="publish()">发布</button>
         <input type="button" class="btn" value="退出登录"
-               onclick="javascrtpt:window.location.href='{{ url_for('logout') }}'">
+               onclick="window.location.href='{{ url_for('logout') }}'">
         <a id="download"></a>
-        <!-- <script type="text/javascript" src="{{ url_for('static', filename='recorder.js') }}"></script> -->
     </div>
 </div>
 <div>
-    <img id="video" src="{{ url_for('video_viewer') }}">
+    <!-- <img id="video" src="{{ url_for('video_viewer') }}"> -->
 </div>
 </body>
 </html>

@@ -1,9 +1,10 @@
 from flask import session, redirect, url_for, render_template, Response, request, jsonify
 from utils.camera import VideoCamera
 from config import create_app
+import json
+from flask import Flask, render_template
 
-app = create_app('dev')
-
+app, mqtt, socketio = create_app('dev')
 video_camera = None
 global_frame = None
 
@@ -107,5 +108,51 @@ def video_stream():
                    b'Content-Type: image/jpeg\r\n\r\n' + global_frame + b'\r\n\r\n')
 
 
+@socketio.on('my_event')
+def handle_my_custom_event(json_data):
+    print('my_event')
+    print('received json: ' + str(json_data))
+
+
+@socketio.on('message')
+def handle_my_custom_event(data):
+    print("message")
+    print('received json: ' + data)
+
+
+@socketio.on('json')
+def handle_my_custom_event(json_data):
+    print("json")
+    print('received json: ' + str(json_data))
+
+
+# 前端发来"订阅"消息，订阅topic主题
+@socketio.on('subscribe')
+def handle_subscribe(json_data):
+    # data = json.loads(json_data)
+    print(json_data)
+    mqtt.subscribe(json_data['topic'])
+
+
+# 前端发来"发送"消息，转发到mqtt服务器
+@socketio.on('publish')
+def handle_publish(json_data):
+    # data = json.loads(json_data)
+    print(json_data)
+    mqtt.publish(json_data['topic'], json_data['message'])
+
+
+# mqtt服务器发来消息，转发到前端
+@mqtt.on_message()
+def handle_mqtt_message(client, userdata, message):
+    data = dict(
+        topic=message.topic,
+        payload=message.payload.decode()
+    )
+    print(message)
+    socketio.emit('mqtt_message', data=data)
+
+
 if __name__ == '__main__':
-    app.run(threaded=True, host="0.0.0.0")
+    # app.run(threaded=True, host="0.0.0.0")
+    socketio.run(app, host='0.0.0.0', port=5000, use_reloader=False, debug=True)
