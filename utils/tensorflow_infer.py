@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+import os
 import cv2
 import time
 import argparse
@@ -13,6 +14,7 @@ from .anchor_decode import decode_bbox
 from .nms import single_class_non_max_suppression
 from .tensorflow_loader import load_tf_model, tf_inference
 
+os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
 sess, graph = load_tf_model('models/face_mask_detection.pb')
 # anchor configuration
 feature_map_sizes = [[33, 33], [17, 17], [9, 9], [5, 5], [3, 3]]
