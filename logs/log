@@ -1623,3 +1623,21 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:58:56] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5sC6n&sid=M5NG_9dNwnsgGhaDAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:59:21] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5sC6o&sid=M5NG_9dNwnsgGhaDAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:59:21] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5sIDs&sid=M5NG_9dNwnsgGhaDAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:15] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXnd5gA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:15] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NXnd5gM&sid=LD760jZ1O3k4pC5yAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:15] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXnd5gO&sid=LD760jZ1O3k4pC5yAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:15] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NXnd5ge&sid=LD760jZ1O3k4pC5yAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:16] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:16] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:16] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:21] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:21] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:21] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:21] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:21] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:23] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:23] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [27/Mar/2021 10:56:41] "[37mGET /disinfection_car/video_viewer HTTP/1.1[0m" 200 -
