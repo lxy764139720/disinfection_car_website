@@ -6,33 +6,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>监控系统</title>
+    <link href="../static/css/control.css" rel='stylesheet' type='text/css'/>
+    <!-- 引入jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <!-- 引入SocketIO -->
     <script src="https://cdn.socket.io/3.1.3/socket.io.min.js"
             integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh"
             crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- <script type="text/javascript" src="{{ url_for('static', filename='recorder.js') }}"></script> -->
-    <script type="text/javascript" src="{{ url_for('static', filename='mqtt.js') }}"></script>
-    <style>
-        body {
-            background-color: #484856;
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='mqtt.js') }}"></script> -->
+    <script type="text/javascript" src="../static/mqtt.js"></script>
+    <script>
+        function chevron_toggle() {
+            $('#collapseParent').find("span").toggleClass("glyphicon-chevron-up");
+            $('#collapseParent').find("span").toggleClass("glyphicon-chevron-down");
         }
-    </style>
+    </script>
 </head>
 <body>
-<h1 align="center" style="color: whitesmoke;">智能防疫消毒车</h1>
-<div class="top">
-    <div class="recorder" id="recorder" align="center">
-        <!-- <button id="record" class="btn">录制视频</button>
-        <button id="stop" class="btn">暂停录制</button> -->
+<!--navbar是nav导航标签的一个基类必须添加，navbar-default是对导航条样式的添加-->
+<nav class="navbar navbar-default">
+    <!--导航具体内容要放到一个容器里增加一定边距，看起来好看-->
+    <div class="container">
+        <!--导航条的头部（就是中北大学校徽那个地方）-->
+        <div class="navbar-header">
+            <img src="../static/images/logo.png" style="width: 70px; height: 70px; float: left" alt=""/>
+            <h2 style="float:left; margin-left: 20px">智能防疫消毒车</h2>
+        </div>
+        <!--导航链接部分 collapse,nav-collapse是说导航条是一个折叠导航条-->
+        <div class="collapse navbar-collapse">
+            <!--真正的链接部分是需要添加nav navbar-nav类的-->
+            <ul class="nav nav-pills" style="margin-left: 20px; float: left; margin-top: 5px">
+                <li role="presentation" class="active"><a href="#"><h4>车辆监控</h4></a></li>
+                <li role="presentation"><a href="#"><h4>车辆管理</h4></a></li>
+            </ul>
+            <!-- 靠右的导航条登陆注册  navbar-right-->
+            <ul class="nav nav-pills navbar-right" style="float: left; margin-top: 5px">
+                <li role="presentation"><a href="#"><h4>登录</h4></a></li>
+                <li role="presentation"><a href="#"><h4>退出</h4></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="navigate-bar" style="width: 150px; float: left; position: relative; margin-left: 10px; margin-right: 5px">
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" id="bar1" class="active">
+            <a href="#docCollapse" class="nav-header collapsed" data-toggle="collapse" id="collapseParent"
+               onclick="chevron_toggle()">
+                场地1
+                <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+            </a>
+            <ul id="docCollapse" class="nav nav-list collapse">
+                <li><a href="#">消毒车1</a></li>
+                <li><a href="#">消毒车2</a></li>
+            </ul>
+        </li>
+        <li role="presentation" id="bar2"><a href="#">场地2</a></li>
+        <li role="presentation" id="bar3"><a href="#">场地3</a></li>
+    </ul>
+</div>
+<!-- <div class="top" style="text-align: center">
+    <div style="margin-left: auto">
         <button id="subscribe" class="btn" onclick="subscribe()">订阅</button>
         <button id="publish" class="btn" onclick="publish()">发布</button>
+        <button id="publish" class="btn" onclick="unsubscribe()">退订</button>
         <input type="button" class="btn" value="退出登录"
                onclick="window.location.href='{{ url_for('logout') }}'">
-        <a id="download"></a>
     </div>
-</div>
-<div>
-    <img id="video" src="{{ url_for('video_viewer') }}">
+</div> -->
+<div style="float:left">
+    <div>
+        <div class="panel panel-default"
+             style="width: 640px; height: 480px; float: left; margin-left: 5px; margin-right: 5px">
+            <div class="panel-heading">视频监控</div>
+            <div class="panel-body">
+                <!-- <img id="video" src="{{ url_for('video_viewer') }}" alt=""> -->
+            </div>
+        </div>
+        <div class="panel panel-default"
+             style="width: 640px; height: 480px; float: left; margin-left: 5px; margin-right: 5px">
+            <div class="panel-heading">地图监控</div>
+            <div class="panel-body">
+                <!-- <img id="video" src="{{ url_for('video_viewer') }}" alt=""> -->
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="panel panel-default"
+             style="width: 640px; height: 180px; float: left; margin-left: 5px; margin-right: 5px">
+            <div class="panel-heading">车辆信息</div>
+            <div class="panel-body">
+                <div class="info-panel-left" style="width: 50%; float: left; padding-right: 5px">
+                    <div style="float: left; margin-right: 10px">底盘电量</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                             style="width: 10%; min-width: 2em;">
+                            10%
+                        </div>
+                    </div>
+                    <div style="float: left; margin-right: 10px">主机电量</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                             style="width: 20%; min-width: 2em;">
+                            20%
+                        </div>
+                    </div>
+                    <div style="float: left; margin-right: 10px">消毒液量</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                             style="width: 60%; min-width: 2em;">
+                            60%
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-panel-right" style="width: 50%; float: left; padding-left: 5px">
+                    <div style="float: left; margin-right: 10px">当前温度</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             style="width: 37%; min-width: 2em;">
+                            37%
+                        </div>
+                    </div>
+                    <div style="float: left; margin-right: 10px">当前湿度</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             style="width: 80%; min-width: 2em;">
+                            80%
+                        </div>
+                    </div>
+                    <!-- document.querySelector("body > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div.panel-body > div.info-panel-right > a > span").innerText -->
+                    <div style="width: 50%; float: left"><a href="#">未佩戴口罩 <span class="badge">1142</span></a></div>
+                    <div style="width: 50%; float: left"><a href="#">垃圾桶倾倒 <span class="badge">1142</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default"
+             style="width: 640px; height: 180px; float: left; margin-left: 5px; margin-right: 5px">
+            <div class="panel-heading">车辆控制</div>
+            <div class="panel-body">
+                <div class="control-button" style="float:left;">
+                    <div>
+                        <div class="btn-group-sm" role="group" style="margin-bottom: 10px">
+                            <button type="button" class="btn btn-default">开启紫外线消毒</button>
+                            <button type="button" class="btn btn-default">停止紫外线消毒</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn-group-sm" role="group" style="margin-bottom: 10px">
+                            <button type="button" class="btn btn-default">开启紫外线消毒</button>
+                            <button type="button" class="btn btn-default">停止紫外线消毒</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn-group-sm" role="group">
+                            <button type="button" class="btn btn-default" onclick="hideControl()">自动模式</button>
+                            <button type="button" class="btn btn-default" onclick="displayControl()">手动模式</button>
+                        </div>
+                    </div>
+                </div>
+                <!--控制消毒车方向-->
+                <div class="change_camera_direction" style="visibility: hidden">
+                    <div class="direction_div left_direction">
+                        <input class="camera_img_left" type="image" alt="" src="../static/images/left.png">
+                    </div>
+                    <div class="direction_div top_direction">
+                        <input class="camera_img_up" type="image" alt="" src="../static/images/up.png">
+                    </div>
+                    <div class="direction_div down_direction">
+                        <input class="camera_img_bottom" type="image" alt="" src="../static/images/down.png">
+                    </div>
+                    <div class="direction_div right_direction">
+                        <input class="camera_img_right" type="image" alt="" src="../static/images/right.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

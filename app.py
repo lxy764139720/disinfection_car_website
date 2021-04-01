@@ -163,6 +163,11 @@ def handle_mqtt_message(client, userdata, message):
     socketio.emit('mqtt_message', data=data)
 
 
+@socketio.on('unsubscribe_all')
+def handle_unsubscribe_all():
+    mqtt.unsubscribe_all()
+
+
 @mqtt.on_log()
 def handle_logging(client, userdata, level, buf):
     print(level, buf)

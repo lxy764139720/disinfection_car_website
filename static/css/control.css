@@ -1,0 +1,38 @@
+/*消毒车方向控制*/
+.change_camera_direction {
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 120px;
+    height: 90px;
+}
+
+.direction_div{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.direction_div input {
+    width: 100%;
+    height: 100%;
+}
+
+.left_direction {
+    top: 30px;
+}
+
+.down_direction {
+    top: 60px;
+    left: -30px;
+}
+
+.right_direction {
+    top: 30px;
+    left: -30px;
+}
+
+.top_direction {
+    top: 0;
+}

@@ -17,7 +17,7 @@
           rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <!--//js-->
-    <script src="http://ajax.useso.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <script>$(document).ready(function (c) {
@@ -43,10 +43,10 @@
     </div>
     <form method="post" action="{{ url_for("login") }}">
         <input type="text" class="text" name="username" value="Username" onfocus="this.value = '';"
-               onblur="if (this.value == '') {this.value = 'Username';}">
+               onblur="if (this.value === '') {this.value = 'Username';}">
         <div class="key">
             <input type="password" name="password" value="Passowrd" onfocus="this.value = '';"
-                   onblur="if (this.value == '') {this.value = 'Password';}">
+                   onblur="if (this.value === '') {this.value = 'Password';}">
         </div>
         <div class="signin">
             <input type="submit" value="Login">
@@ -58,10 +58,6 @@
         </div>
     </form>
 
-</div>
-<div class="copy-rights">
-    <p> Copyright@2019 可以在我的Github上找到我 <a href="https://github.com/CriseLYJ" target="_blank" title="Github">Github</a>
-        如果喜欢记得star <a href="https://criselyj.github.io/" title="Github" target="_blank">Blog</a></p>
 </div>
 
 </body>
