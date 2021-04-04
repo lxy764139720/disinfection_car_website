@@ -29,18 +29,14 @@
 });
 </script>
 <!--SIGN UP-->
-<h1>家庭监控系统</h1>
+<div class="avtar" style="text-align: center">
+    <img src="../static/images/logo.png"/>
+</div>
 <div class="login-form">
-    <div class="close"></div>
     <div class="head-info">
-        <label class="lbl-1"> </label>
-        <label class="lbl-2"> </label>
-        <label class="lbl-3"> </label>
+        <h6>智能防疫消毒车监控平台</h6>
     </div>
     <div class="clear"></div>
-    <div class="avtar">
-        <img src="../static/images/avtar.png"/>
-    </div>
     <form method="post" action="{{ url_for("login") }}">
         <input type="text" class="text" name="username" value="Username" onfocus="this.value = '';"
                onblur="if (this.value === '') {this.value = 'Username';}">
@@ -49,12 +45,10 @@
                    onblur="if (this.value === '') {this.value = 'Password';}">
         </div>
         <div class="signin">
-            <input type="submit" value="Login">
             {% if errmsg %} {# 判断是否有错误信息 #}
-
                 <div class="error_tip" style="display: block;color: red">{{ errmsg }}</div>
-
             {% endif %}
+            <input type="submit" value="Login">
         </div>
     </form>
 

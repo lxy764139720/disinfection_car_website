@@ -350,7 +350,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:38:36] "[36mGET /static/images/pass.png HTTP/1.1[0m" 304 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:38:38] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:38:38] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:38:38] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:38:38] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 ERROR D:\anaconda\envs\network\lib\site-packages\engineio\server.py:711 The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:39:02] "[31m[1mGET /socket.io/?EIO=3&transport=polling&t=1616035142703-0 HTTP/1.1[0m" 400 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 10:39:03] "[31m[1mGET /socket.io/?EIO=3&transport=polling&t=1616035143776-1 HTTP/1.1[0m" 400 -
@@ -862,7 +862,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4j4Ou&sid=ERSTy6WojMeQK1SUAAAG HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:28] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4j2Ig&sid=ERSTy6WojMeQK1SUAAAG HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:28] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:28] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:28] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:29] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4j4cG HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:29] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4j4cr&sid=UStbc-qheU1qx002AAAI HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:39:29] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4j4cs&sid=UStbc-qheU1qx002AAAI HTTP/1.1[0m" 200 -
@@ -879,7 +879,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4jZ89&sid=UStbc-qheU1qx002AAAI HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:40] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:40] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:40] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:41] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4jam6 HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:41] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4jamq&sid=rnfdic3zElB7CTTfAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:41:41] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4jamr&sid=rnfdic3zElB7CTTfAAAA HTTP/1.1[0m" 200 -
@@ -925,7 +925,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4krFg&sid=QM3uPCYpsxo_zcY8AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:10] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4kqyG&sid=QM3uPCYpsxo_zcY8AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:10] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:10] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:10] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:11] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4krVP HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:11] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4krW5&sid=A9GEdetl4Yb28UAlAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 17:47:11] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4krW9&sid=A9GEdetl4Yb28UAlAAAC HTTP/1.1[0m" 200 -
@@ -1007,7 +1007,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:31] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4pVER HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:31] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:31] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:31] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:33] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4pVmv HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4pVnX&sid=bHCwuDXFWFaIzNR_AAAB HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:33] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4pVnY&sid=bHCwuDXFWFaIzNR_AAAB HTTP/1.1[0m" 200 -
@@ -1067,7 +1067,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:22] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4rleV&sid=QMlavcRu0plmTgX0AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:22] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rl18&sid=QMlavcRu0plmTgX0AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:22] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:22] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:22] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:24] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rm0D HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:24] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4rm0u&sid=IMkvwzG1Bt8CVt3eAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:24] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rm0v&sid=IMkvwzG1Bt8CVt3eAAAC HTTP/1.1[0m" 200 -
@@ -1081,7 +1081,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:53] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4rtGk&sid=asTMsSlhPTizpe60AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:53] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rs-1&sid=asTMsSlhPTizpe60AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:53] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:54] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:54] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rtLi HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4rtMO&sid=CXD_wDUgKvAbuJLyAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:17:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4rtMP&sid=CXD_wDUgKvAbuJLyAAAC HTTP/1.1[0m" 200 -
@@ -1130,7 +1130,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:12] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4tYGu&sid=hQj9BWCASiDx703zAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:12] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tWYj&sid=hQj9BWCASiDx703zAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:12] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:12] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:12] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:13] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tYb7 HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:13] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4tYbo&sid=EEQCUuSAkNuXaf1AAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:13] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tYbq&sid=EEQCUuSAkNuXaf1AAAAC HTTP/1.1[0m" 200 -
@@ -1144,7 +1144,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:45] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4tgTk&sid=Tyf5D6MKl6vutT-DAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:45] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tfe5&sid=Tyf5D6MKl6vutT-DAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:45] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:45] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:45] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:46] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tgc9 HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:46] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX4tgcl&sid=_Idln1vR1qdAzRS1AAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 18:25:46] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX4tgcm&sid=_Idln1vR1qdAzRS1AAAC HTTP/1.1[0m" 200 -
@@ -1185,7 +1185,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:37] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5R71I&sid=s8-MardEwwpXLo4eAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:37] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5R4Ke&sid=s8-MardEwwpXLo4eAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:37] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:37] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:37] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5R7PK HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5R7RP&sid=lfVfgQSlQVXS4cvAAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:00:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5R7RQ&sid=lfVfgQSlQVXS4cvAAAAC HTTP/1.1[0m" 200 -
@@ -1209,7 +1209,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Run
 ERROR D:\anaconda\envs\network\lib\site-packages\engineio\server.py:711 Invalid session IpbtyVXihT19rZR2AAAK (further occurrences of this error will be logged with level INFO)
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:52] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=NX5Rd-V&sid=IpbtyVXihT19rZR2AAAK HTTP/1.1[0m" 400 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:52] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:52] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:52] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5ReKP HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5ReL6&sid=B0-qCxqAAZIZ_fH5AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:02:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5ReL7&sid=B0-qCxqAAZIZ_fH5AAAA HTTP/1.1[0m" 200 -
@@ -1250,7 +1250,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:06] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5SqUp&sid=WK3fkcb3Hn229oPmAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:06] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5SoxF&sid=WK3fkcb3Hn229oPmAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:06] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:06] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:06] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:08] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5Sr4j HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:08] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5Sr5P&sid=hR2eYnDrCu36IZhMAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:08:08] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5Sr5Q&sid=hR2eYnDrCu36IZhMAAAC HTTP/1.1[0m" 200 -
@@ -1489,7 +1489,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:13] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5dO5B&sid=hY8UhnMuC_9AUweOAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:13] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5dK_u&sid=hY8UhnMuC_9AUweOAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:13] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:13] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:13] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:16] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5dOs4 HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:16] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5dOso&sid=bFIqZpM51l8OhS9nAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 21:54:16] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5dOsp&sid=bFIqZpM51l8OhS9nAAAC HTTP/1.1[0m" 200 -
@@ -1558,7 +1558,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:44] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NX5o1Nm&sid=BxKW8dQM5JEialOZAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:44] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5o0q6&sid=BxKW8dQM5JEialOZAAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:44] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:44] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:44] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:40:52] "[37mGET /disinfection_car/video_viewer HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:42:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5o1xU HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [18/Mar/2021 22:42:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NX5o76E HTTP/1.1[0m" 200 -
@@ -1659,7 +1659,7 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:53] "[36mGET /static/images/key.png HTTP/1.1[0m" 304 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:55] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:55] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
-INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:55] "[37mGET /static/mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:55] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:57] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXtPa-l HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:57] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NXtPa_Q&sid=xgRIrycBuROKCUR5AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 13:54:57] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXtPa_R&sid=xgRIrycBuROKCUR5AAAA HTTP/1.1[0m" 200 -
@@ -2074,3 +2074,510 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 14:42:03] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXtaN7I&sid=ILYPJgoooTyPnSw1AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 14:42:14] "[37mGET /socket.io/?EIO=4&transport=polling&t=NXtaN7R&sid=ILYPJgoooTyPnSw1AAAA HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [28/Mar/2021 14:42:14] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NXtaPl_&sid=ILYPJgoooTyPnSw1AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[37mGET /static/images/bg.jpg HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[36mGET /static/images/adm.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[36mGET /static/images/pass.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:39] "[36mGET /static/images/key.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:51] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:51] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:51] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:51] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcJNu HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcJOZ&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcJOa&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:36:52] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcJOo&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:00] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcLG0&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:16] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcPIv&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:17] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcJOp&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:17] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcPUn&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:37] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcUHs&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:42] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcPUo&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:37:42] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcVbo&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:07] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcVbp&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:07] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcbie&sid=ObTfyrLvxS3wbv1uAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:38] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcjEL HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcjFz&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcjF-&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcjHm&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:42] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRck6I&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:44] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcklx&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:38:44] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcjHn&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:03] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRckmd&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:03] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcpLJ&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:04] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcpep&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:04] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcpLK&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:28] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRcpfR&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRcvSF&sid=lNldP7abbv486UjvAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd0Ww HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd0yz&sid=4dvDV6SjLtx4Z-5TAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd0y-&sid=4dvDV6SjLtx4Z-5TAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:39:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd0zA&sid=4dvDV6SjLtx4Z-5TAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd1WH&sid=4dvDV6SjLtx4Z-5TAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd0zB&sid=4dvDV6SjLtx4Z-5TAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:01] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:03] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd1yy HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:03] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd1zT&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:03] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd1zU&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:03] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd1zj&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:06] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd2fi&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd3NW&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:09] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd1zl&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:28] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd3OA&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd83u&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:53] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd83v&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:40:53] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdEAX&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:41:18] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdEAY&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:41:18] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdKHQ&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:41:43] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdKHR&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:41:43] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdQOM&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:08] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdQOM.0&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:08] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdWVE&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:33] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdWVE.0&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdcc2&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:58] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdcc3&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:42:58] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdij6&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:43:23] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdij7&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:43:23] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRdopx&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:43:48] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRdopy&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:43:48] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRduwn&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:44:13] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRduwp&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:44:13] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRd_1Q&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:44:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRd_1R&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:44:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRe586&sid=CvMzPoHz0ZBMFk5LAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:26] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYReyJo HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:26] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYReyhf&sid=rL8UHCsNmzE4BFbYAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:26] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYReyhg&sid=rL8UHCsNmzE4BFbYAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:26] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYReyhu&sid=rL8UHCsNmzE4BFbYAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRezMe&sid=rL8UHCsNmzE4BFbYAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:28] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYReyhu.0&sid=rL8UHCsNmzE4BFbYAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:28] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:30] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRezj4 HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:30] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRezjG&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:30] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRezjH&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:30] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRezjW&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRe-NS&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRe_4X&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRezjX&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:55] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRe_5B&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:55] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRf3pm&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRf4nE&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:48:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRf3pn&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRf6DJ&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRf4nu&sid=r178Q-IoVOwFNDsnAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:05] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfDjW HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfDju&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfDju.0&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfDk3&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:51] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfHWo&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:52] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfHkA&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:49:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfIMr&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:00] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfDk5&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:00] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfJqD&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:25] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfJqE&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:25] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfPwv&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:50] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfPww&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:50:50] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfW1r&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:51:15] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfW1r.0&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:51:15] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfc8j&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:51:40] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRfc8k&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:51:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRfiFm&sid=-s5SiL4xmrJyinLdAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:26] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:27] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg6FJ HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:27] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg6Ff&sid=lw_TdhzazdW7a0VrAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:27] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg6Fg&sid=lw_TdhzazdW7a0VrAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:27] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg6Fs&sid=lw_TdhzazdW7a0VrAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:31] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg7Mh&sid=lw_TdhzazdW7a0VrAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:31] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg6Ft&sid=lw_TdhzazdW7a0VrAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:31] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:31] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:31] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg7VH HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg7Vl&sid=QSywV3VTG8WKTqBlAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg7Vm&sid=QSywV3VTG8WKTqBlAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg7W0&sid=QSywV3VTG8WKTqBlAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg8AF&sid=QSywV3VTG8WKTqBlAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg7W2&sid=QSywV3VTG8WKTqBlAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/images/up.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/images/down.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg8I9 HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg8IX&sid=-cMTOEulL8NXQNcQAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRg8IY&sid=-cMTOEulL8NXQNcQAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 14:53:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRg8Im&sid=-cMTOEulL8NXQNcQAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:03] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:03] "[37mGET /static/images/forward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:03] "[37mGET /static/images/stop.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:03] "[37mGET /static/images/backward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:04] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRq_uJ HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:04] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRq_ua&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:04] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRq_ua.0&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:04] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRq_uv&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic topic: battery warning
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRr5Z7&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:29] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRq_uv.0&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:29] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRr5_R&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRr9UO&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRr5_R.0&sid=F-0kCoZkpSrhXVqBAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/forward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/stop.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/backward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:41:44] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:14] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRrG_2 HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:15] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrG_T&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:15] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRrG_V&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:15] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrG_g&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: topic, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:23] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrJ2H&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrKCk&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrKHb&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:29] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrKYD&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:30] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrKmW&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:31] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrKxM&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:31] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrL2F&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:31] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrL7j&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLAO&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLIL&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLIn&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLJW&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLJ-&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLKU&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLKz&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLLT&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLLw&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLMQ&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLMw&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLNe&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:32] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLO8&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLOc&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLP7&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLPa&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLQ4&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLQa&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLR0&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLZu&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLhl&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLiT&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLiy&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLjS&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLj-&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLkT&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLl0&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLlP&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:34] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLpa&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLxe&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLy9&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLyc&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLz4&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrLze&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrL-6&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrL-a&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 5
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:35] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrM5r&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 5
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:36] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMG_&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 5
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:36] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMLm&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 5
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:37] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMOH&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:37] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMZ8&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:37] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMba&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMeD&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMhe&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMkG&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMn4&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMoF&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMsI&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMsh&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMv0&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMxE&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMxn&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrMzL&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrM-0&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN0j&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN1y&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN4n&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRrG_f&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN5m&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN6G&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN7u&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrN9i&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNAP&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNC4&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNEW&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNEx&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNIG&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:40] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNKI&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:41] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNLs&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:41] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNMx&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:41] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrNPs&sid=XF6kGZvpDnpyxiIaAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:58] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRrRvv HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrRw6&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYRrRw6.0&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:42:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrRwP&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:08] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrU9T&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUCK&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUFA&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUKK&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUN4&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:09] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUPG&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 2
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrURh&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 4
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUTk&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUWy&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 8
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUXM&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:388 Published topic cmd: 6
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 15:43:10] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYRrUZP&sid=WMDGt-ng4phx_lKKAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:19] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:19] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:19] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:19] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:20] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEZ99 HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:20] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEZA5&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:20] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEZA6&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:20] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEZAR&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:21] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEZXW&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:21] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEZAR.0&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:27] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEavk&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:27] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEZXk&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:28] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEbEa&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:28] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEavv&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:29] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEbEt&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:29] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEbUn&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:30] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEbdp&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:30] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEbV2&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:36] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEdDl&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:36] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEbd_&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEdaY&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEdDx&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEdgh&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEdag&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEdgs&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEdlZ&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEdrV&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEdli&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:45] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTEdrd&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:12:45] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTEfG4&sid=HbKDehfKffLJHB56AAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:36] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMOpU HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:36] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMP7m&sid=kXPeLjFWPAsbo38mAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:36] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMP7m.0&sid=kXPeLjFWPAsbo38mAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:36] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMP7t&sid=kXPeLjFWPAsbo38mAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:38] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMPZe&sid=kXPeLjFWPAsbo38mAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:38] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMP7t.0&sid=kXPeLjFWPAsbo38mAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:38] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMPyh HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMPyy&sid=m47uJe_2-mwhfPBuAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMPyy.0&sid=m47uJe_2-mwhfPBuAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMPzS&sid=m47uJe_2-mwhfPBuAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMQpi&sid=m47uJe_2-mwhfPBuAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMPzU&sid=m47uJe_2-mwhfPBuAAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMQtt HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMQu9&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMQuA&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:43] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMQuW&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:48] "[33mGET /static/toastr.js.map HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMTTh&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMQuX&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:46:58] "[33mGET /static/toastr.js.map HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:08] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMTT-&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:08] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMW-p&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:18] "[33mGET /static/toastr.js.map HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:33] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMW-p.0&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:33] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMd5d&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMhx4&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMd5d.0&sid=LRORY9pZuoMeBt2kAAAE HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:53] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/left.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/forward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/stop.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/backward.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/right.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMiCX HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMiD2&sid=U5RkuLGoU4STQB99AAAG HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTMiD4&sid=U5RkuLGoU4STQB99AAAG HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTMiDG&sid=U5RkuLGoU4STQB99AAAG HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[33mGET /static/toastr.js.map HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:47:54] "[37mGET /static/images/location.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNnfZ HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNnnd&sid=Um1LuXnyOvYYvKzoAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNnnf&sid=Um1LuXnyOvYYvKzoAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:39] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNnno&sid=Um1LuXnyOvYYvKzoAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:59] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNsiE&sid=Um1LuXnyOvYYvKzoAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:59] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNnnp&sid=Um1LuXnyOvYYvKzoAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:52:59] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:01] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNtBb HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:01] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNtBp&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:01] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNtBp.0&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:01] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNtC6&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:03] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNtko&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:03] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNtC6.0&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:08] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNurb&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:08] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNtk_&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:26] "[37mGET /socket.io/?EIO=4&transport=polling&t=NYTNurl&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [04/Apr/2021 22:53:26] "[37mPOST /socket.io/?EIO=4&transport=polling&t=NYTNzIW&sid=6NtvOdrAowMDxW57AAAC HTTP/1.1[0m" 200 -

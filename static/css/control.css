@@ -3,11 +3,11 @@
     margin-top: 10px;
     text-align: center;
     float: right;
-    width: 120px;
-    height: 90px;
+    width: 160px;
+    height: 100px;
 }
 
-.direction_div{
+.direction_div {
     float: left;
     position: relative;
     width: 30px;
@@ -20,19 +20,25 @@
 }
 
 .left_direction {
-    top: 30px;
+    top: 32px;
 }
 
-.down_direction {
-    top: 60px;
-    left: -30px;
+.forward_direction {
+    top: 0;
+    left: 2px;
+}
+
+.stop_direction {
+    top: 32px;
+    left: -28px;
+}
+
+.backward_direction {
+    top: 64px;
+    left: -58px;
 }
 
 .right_direction {
-    top: 30px;
-    left: -30px;
-}
-
-.top_direction {
-    top: 0;
+    top: 32px;
+    left: -56px;
 }

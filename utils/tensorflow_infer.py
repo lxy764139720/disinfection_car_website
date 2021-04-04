@@ -73,7 +73,7 @@ def inference(image,
     '''
     Main function of detection inference
     :param image: 3D numpy array of image
-    :param conf_thresh: the min threshold of classification probabity.
+    :param conf_thresh: the min threshold of classification probability.
     :param iou_thresh: the IOU threshold of NMS
     :param target_shape: the model input size.
     :param draw_result: whether to daw bounding box to the image.

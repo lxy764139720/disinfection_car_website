@@ -78,19 +78,42 @@ class VideoCamera(object):
         if not self.cap.isOpened():
             raise ValueError("Video open failed.")
         status = True
+        mask_record = 0
+        no_mask_record = 0
+        no_mask_warning = False
         while status:
             status, img_raw = self.cap.read()
             img_raw = cv2.cvtColor(img_raw, cv2.COLOR_BGR2RGB)
             if status:
-                inference(img_raw,
-                          conf_thresh,
-                          iou_thresh=0.5,
-                          target_shape=(260, 260),
-                          draw_result=True,
-                          show_result=False)
+                output_info = inference(img_raw,
+                                        conf_thresh,
+                                        iou_thresh=0.5,
+                                        target_shape=(260, 260),
+                                        draw_result=True,
+                                        show_result=False)
                 ret, jpeg = cv2.imencode('.jpg', img_raw[:, :, ::-1])
                 # cv2.waitKey(1)
-                return jpeg.tobytes()
+                mask = True
+                for output in output_info:
+                    if output[0] == 1:  # no mask
+                        mask = False
+                if not mask:
+                    no_mask_record += 1
+                    # 第一次检测到超过5帧未佩戴口罩，发出警告
+                    if no_mask_record == 5:
+                        mask_record = 0
+                        no_mask_warning = True
+                    # 5帧之后未佩戴口罩，清空警告标志
+                    if no_mask_record != 5:
+                        no_mask_warning = False
+                else:
+                    mask_record += 1
+                    # 连续5帧内未发现未佩戴口罩情况，清空警告标志
+                    if mask_record == 5:
+                        no_mask_record = 0
+                        no_mask_warning = False
+                return jpeg.tobytes(), no_mask_warning
+
                 # cv2.imshow('image', img_raw[:, :, ::-1])
                 # writer.write(img_raw)
         return None

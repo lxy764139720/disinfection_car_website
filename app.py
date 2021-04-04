@@ -97,7 +97,7 @@ def video_stream():
         video_camera = VideoCamera()
 
     while True:
-        frame = video_camera.get_inferred_frame('', conf_thresh=0.5)
+        frame, no_mask_warning = video_camera.get_inferred_frame('', conf_thresh=0.5)
 
         if frame is not None:
             global_frame = frame
@@ -107,6 +107,10 @@ def video_stream():
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + global_frame + b'\r\n\r\n')
 
+        if no_mask_warning:
+            socketio.emit('no_mask_warning')
+            mqtt.publish('warning', 'no_mask')
+
 
 @socketio.on('connect_message')
 def handle_my_custom_event(json_data):
@@ -114,26 +118,12 @@ def handle_my_custom_event(json_data):
     print(json_data)
 
 
-# @socketio.on('message')
-# def handle_my_custom_event(data):
-#     print("message")
-#     print('received json: ' + data)
-#
-#
-# @socketio.on('json')
-# def handle_my_custom_event(json_data):
-#     print("json")
-#     print('received json: ' + str(json_data))
-
-
-# 前端发来"订阅"消息，订阅topic主题
+# 前端发来"订阅"消息，订阅odom主题
 @socketio.on('subscribe')
 def handle_subscribe(json_data):
     # data = json.loads(json_data)
-    print('订阅')
+    print('subscribe')
     print(json_data)
-    print(type(json_data))
-    print(json_data['topic'])
     mqtt.subscribe(json_data['topic'])
 
 
@@ -141,9 +131,22 @@ def handle_subscribe(json_data):
 @socketio.on('publish')
 def handle_publish(json_data):
     # data = json.loads(json_data)
-    print('发布')
+    print('publish')
     print(json_data)
     mqtt.publish(json_data['topic'], json_data['message'])
+
+
+# 前端发来控制方向消息，转发到mqtt服务器
+@socketio.on('direction')
+def handle_direction(json_data):
+    print('direction')
+    print(json_data)
+    mqtt.publish(json_data['topic'], json_data['message'])
+
+
+@socketio.on('toast')
+def handle_toast():
+    socketio.emit('no_mask_warning')
 
 
 @mqtt.on_connect()
@@ -160,7 +163,8 @@ def handle_mqtt_message(client, userdata, message):
         payload=message.payload.decode()
     )
     print(message)
-    socketio.emit('mqtt_message', data=data)
+    if message.topic == 'odom':
+        socketio.emit('odom', data=data)
 
 
 @socketio.on('unsubscribe_all')
