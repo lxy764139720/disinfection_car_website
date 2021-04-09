@@ -2,6 +2,7 @@ var socket = io.connect(location.protocol + '//' + document.domain + ':' + locat
 
 socket.on('connect', function () {
     socket.emit('connect_message', {data: 'connected!'});
+    subscribe();
 });
 
 // 接收消毒车位置参数并显示
@@ -34,7 +35,7 @@ function subscribe() {
 
 function publish() {
     console.log("click publish");
-    socket.emit('publish', {topic: 'topic', message: 'battery warning'});
+    socket.emit('publish', {topic: 'odom', message: 'battery warning'});
 }
 
 function unsubscribe() {
@@ -78,6 +79,15 @@ function backward_direction() {
 function right_direction() {
     console.log("right");
     socket.emit('direction', {topic: 'cmd', message: 6});
+}
+
+function send_cmd(cmd) {
+    var message = new Paho.MQTT.Message("<" + cmd + " > "); //"<1>", "<2>", ...
+    console.log(cmd);
+    message.destinationName = "610_cmd"; //topic
+    for (var i = 0; i < 5; i++) {
+        cmd_client.send(message);
+    }
 }
 
 document.onkeydown = function (event) {

@@ -9,11 +9,6 @@ video_camera = None
 global_frame = None
 
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-
 # 主页
 @app.route('/disinfection_car/home')
 def index():
@@ -22,6 +17,16 @@ def index():
     if not username:
         return redirect(url_for("login"))
     return render_template("index.html")
+
+
+# 主页
+@app.route('/disinfection_car/status')
+def status():
+    # 模板渲染
+    username = session.get("username")
+    if not username:
+        return redirect(url_for("login"))
+    return render_template("status.html")
 
 
 # 登录
