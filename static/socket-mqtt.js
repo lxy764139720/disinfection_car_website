@@ -9,15 +9,19 @@ socket.on('connect', function () {
 socket.on('odom', function (msg) {
     console.log('odom');
     console.log(msg);
-    var x = parseFloat(msg.payload.x);
-    var y = parseFloat(msg.payload.y);
+    // ((?<=<x:).+)(.+(?=,))
+    // ((?<=,).+)(.+(?=>))
+    var x = parseFloat(msg.payload.match(/((?<=<x:).+)(.+(?=,))/)[0]);
+    var y = parseFloat(msg.payload.match(/((?<=,y:).+)(.+(?=>))/)[0]);
 
     var canvas = document.getElementById('map');
     if (!canvas.getContext) return;
     var ctx = canvas.getContext("2d");
     var img = new Image();
     img.onload = function () {
-        ctx.drawImage(img, x, y, 20, 20)
+        console.log("x:" + x.toString());
+        console.log("y:" + y.toString());
+        ctx.drawImage(img, x, y, 20, 20);
     }
     img.src = "../static/images/location.png"; // 设置图片源地址
 });
@@ -82,11 +86,12 @@ function right_direction() {
 }
 
 function send_cmd(cmd) {
-    var message = new Paho.MQTT.Message("<" + cmd + " > "); //"<1>", "<2>", ...
+    // var message = new Paho.MQTT.Message("<" + cmd + " > "); //"<1>", "<2>", ...
     console.log(cmd);
-    message.destinationName = "610_cmd"; //topic
+    // message.destinationName = "610_cmd"; //topic
     for (var i = 0; i < 5; i++) {
-        cmd_client.send(message);
+        // cmd_client.send(message);
+        socket.emit('publish', {topic: '610_cmd', message: "<" + cmd + " > "});
     }
 }
 

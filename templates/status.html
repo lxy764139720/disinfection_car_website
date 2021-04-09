@@ -39,10 +39,15 @@
             var canvas = document.getElementById('map');
             if (!canvas.getContext) return;
             var ctx = canvas.getContext("2d");
+            var map = new Image();
             var img = new Image();
-            img.onload = function () {
-                ctx.drawImage(img, 0, 0, 20, 20)
+            map.onload = function () {
+                ctx.drawImage(map, 0, 0, 640, 440);
             }
+            img.onload = function () {
+                ctx.drawImage(img, 150, 220, 20, 20);
+            }
+            map.src = "../static/images/map.png";
             img.src = "../static/images/location.png"; // 设置图片源地址
         }
     </script>
@@ -75,7 +80,7 @@
     </div>
 </nav>
 
-<div class="top" style="text-align: center">
+<!-- <div class="top" style="text-align: center">
     <div style="margin-left: auto">
         <button id="subscribe" class="btn" onclick="subscribe()">订阅</button>
         <button id="publish" class="btn" onclick="publish()">发布</button>
@@ -84,7 +89,7 @@
         <input type="button" class="btn" value="退出登录"
                onclick="window.location.href='{{ url_for('logout') }}'">
     </div>
-</div>
+</div> -->
 
 <div class="navigate-bar" style="width: 130px; float: left; position: relative; margin-left: 10px; margin-right: 5px">
     <ul class="nav nav-pills nav-stacked">

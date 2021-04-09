@@ -28,7 +28,8 @@ class RecordingThread(threading.Thread):
 
 class VideoCamera(object):
     def __init__(self):
-        self.rtmp_str = 'rtmp://58.200.131.2:1935/livetv/cctv1'
+        # self.rtmp_str = 'rtmp://58.200.131.2:1935/livetv/cctv1'
+        self.rtmp_str = 'rtmp://120.55.55.230:1935/live/cs'
         # 打开摄像头， 0代表笔记本内置摄像头，或rtmp视频流路径
         self.cap = cv2.VideoCapture(self.rtmp_str)
 
