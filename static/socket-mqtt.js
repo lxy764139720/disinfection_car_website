@@ -99,7 +99,7 @@ function send_cmd(cmd) {
     // message.destinationName = "610_cmd"; //topic
     for (var i = 0; i < 5; i++) {
         // cmd_client.send(message);
-        socket.emit('publish', {topic: '610_cmd', message: "<" + cmd + " > "});
+        socket.emit('publish', {topic: 'cmd', message: cmd});
     }
 }
 

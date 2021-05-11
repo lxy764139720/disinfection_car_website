@@ -3,6 +3,8 @@ from logging.handlers import RotatingFileHandler
 import eventlet
 from flask import Flask
 from datetime import timedelta
+
+from flask_cors import CORS
 from flask_mqtt import Mqtt
 from flask_socketio import SocketIO
 
@@ -67,6 +69,7 @@ def create_app(config_type):  # 封装web应用的创建过程
     app.config.from_object(config_class)
     mqtt = Mqtt(app)
     socketio = SocketIO(app)
+    CORS(app, resources={r"/*": {"origins": "*"}})
 
     # 设置日志
     setup_log(config_class.LOG_LEVEL)

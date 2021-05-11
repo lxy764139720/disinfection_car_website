@@ -1,5 +1,7 @@
+from werkzeug.wrappers import Response
+
 from flask import session, redirect, url_for, render_template, Response, request, jsonify
-from utils.camera import VideoCamera
+# from utils.camera import VideoCamera
 from config import create_app
 import json
 from flask import Flask, render_template
@@ -64,14 +66,14 @@ def logout():
     return redirect(url_for("login"))
 
 
-# 视频流
-@app.route('/disinfection_car/video_viewer')
-def video_viewer():
-    # 模板渲染
-    username = session.get("username")
-    if not username:
-        return redirect(url_for("login"))
-    return Response(video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
+# # 视频流
+# @app.route('/disinfection_car/video_viewer')
+# def video_viewer():
+#     # 模板渲染
+#     username = session.get("username")
+#     if not username:
+#         return redirect(url_for("login"))
+#     return Response(video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
 # # 录制状态
@@ -93,28 +95,28 @@ def video_viewer():
 #         return jsonify(result="stopped")
 
 
-# 获取视频流
-def video_stream():
-    global video_camera
-    global global_frame
-
-    if video_camera is None:
-        video_camera = VideoCamera()
-
-    while True:
-        frame, no_mask_warning = video_camera.get_inferred_frame('', conf_thresh=0.5)
-
-        if frame is not None:
-            global_frame = frame
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-        else:
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + global_frame + b'\r\n\r\n')
-
-        if no_mask_warning:
-            socketio.emit('no_mask_warning')
-            mqtt.publish('warning', 'no_mask')
+# # 获取视频流
+# def video_stream():
+#     global video_camera
+#     global global_frame
+#
+#     if video_camera is None:
+#         video_camera = VideoCamera()
+#
+#     while True:
+#         frame, no_mask_warning = video_camera.get_inferred_frame('', conf_thresh=0.5)
+#
+#         if frame is not None:
+#             global_frame = frame
+#             yield (b'--frame\r\n'
+#                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+#         else:
+#             yield (b'--frame\r\n'
+#                    b'Content-Type: image/jpeg\r\n\r\n' + global_frame + b'\r\n\r\n')
+#
+#         if no_mask_warning:
+#             socketio.emit('no_mask_warning')
+#             mqtt.publish('warning', 'no_mask')
 
 
 @socketio.on('connect_message')
