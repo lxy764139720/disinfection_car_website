@@ -16,6 +16,7 @@ class Config:
     SECRET_KEY = "disinfection_car"
     # session过期时间
     PERMANENT_SESSION_LIFETIME = timedelta(days=7)
+    CORS_HEADERS = 'Content-Type'
     TEMPLATES_AUTO_RELOAD = True
     MQTT_BROKER_URL = '106.15.92.226'
     MQTT_BROKER_PORT = 1883
@@ -69,7 +70,6 @@ def create_app(config_type):  # 封装web应用的创建过程
     app.config.from_object(config_class)
     mqtt = Mqtt(app)
     socketio = SocketIO(app)
-    CORS(app, resources={r"/*": {"origins": "*"}})
 
     # 设置日志
     setup_log(config_class.LOG_LEVEL)

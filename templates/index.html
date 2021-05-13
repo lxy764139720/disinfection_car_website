@@ -109,20 +109,32 @@
             <div class="panel-heading">视频监控</div>
             <div class="panel-body" style="padding: 0">
                 <!-- <img id="video" alt=""> -->
-                <video id="videoElement" class="centeredVideo" controls autoplay width="640" height="480" muted="muted"
+                <video id="videoElement" class="centeredVideo" controls muted width="640" height="480"
                        crossorigin="anonymous">Your browser is too old which doesn't support HTML5 video.
                 </video>
                 <script>
-                    if (flvjs.isSupported()) {
-                        var videoElement = document.getElementById('videoElement');
-                        var flvPlayer = flvjs.createPlayer({
-                            type: 'flv',
-                            url: 'http://img.ksbbs.com/asset/Mon_1704/15868902d399b87.flv'
+                    $SCRIPT_ROOT = {{ request.script_root|tojson }};
+                    var rtmp_address = '';
+                    $(function () {
+                        $.getJSON($SCRIPT_ROOT + '/rtmp_address', {}, function (data) {
+                            rtmp_address = data.result;
+                            console.log('inner');
+                            console.log(rtmp_address);
+                            if (flvjs.isSupported()) {
+                                var videoElement = document.getElementById('videoElement');
+                                console.log('outer');
+                                console.log(rtmp_address);
+                                var flvPlayer = flvjs.createPlayer({
+                                    type: 'flv',
+                                    url: rtmp_address
+                                });
+                                flvPlayer.attachMediaElement(videoElement);
+                                flvPlayer.load();
+                                flvPlayer.play();
+                            }
                         });
-                        flvPlayer.attachMediaElement(videoElement);
-                        flvPlayer.load();
-                        flvPlayer.play();
-                    }
+                        return false;
+                    });
                 </script>
             </div>
         </div>

@@ -1,18 +1,22 @@
+from flask_cors import CORS, cross_origin
 from werkzeug.wrappers import Response
 
-from flask import session, redirect, url_for, render_template, Response, request, jsonify
+from flask import session, redirect, url_for, render_template, Response, request, jsonify, make_response
 # from utils.camera import VideoCamera
 from config import create_app
 import json
 from flask import Flask, render_template
 
 app, mqtt, socketio = create_app('dev')
+CORS(app)
+
 video_camera = None
 global_frame = None
 
 
 # 主页
 @app.route('/disinfection_car/home')
+@cross_origin(origin='localhost', headers=['Content- Type', 'Authorization'])
 def index():
     # 模板渲染
     username = session.get("username")
@@ -117,6 +121,15 @@ def logout():
 #         if no_mask_warning:
 #             socketio.emit('no_mask_warning')
 #             mqtt.publish('warning', 'no_mask')
+
+@app.route('/rtmp_address')
+@cross_origin(origin='localhost', headers=['Content- Type', 'Authorization'])
+def add_numbers():
+    res = make_response(jsonify(result='http://120.55.55.230:8181/live?port=1965&app=live&stream=cs'))
+    res.headers['Access-Control-Allow-Origin'] = '*'
+    res.headers['Access-Control-Allow-Methods'] = 'GET'
+    res.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+    return res
 
 
 @socketio.on('connect_message')

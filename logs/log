@@ -17624,3 +17624,310 @@ INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [11/May/2021 21:29:39] "[37mGET /socket.io/?EIO=4&transport=polling&t=NbRda_l.0&sid=l0QsvRdptd3XealgAAAC HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [11/May/2021 21:29:39] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
 INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [11/May/2021 21:29:43] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:42] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/images/adm.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/images/pass.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:47] "[36mGET /static/images/key.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:49] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:49] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:49] "[36mGET /static/css/control.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:49] "[36mGET /static/css/toastr.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [12/May/2021 21:44:49] "[36mGET /static/toastr.min.js HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:20] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:48] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:48] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:48] "[36mGET /static/images/adm.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:49] "[36mGET /static/images/pass.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:49] "[36mGET /static/images/key.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:50] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:50] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:50] "[36mGET /static/css/control.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:50] "[36mGET /static/css/toastr.css HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:50] "[36mGET /static/toastr.min.js HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:51] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:51] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:00:56] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:00] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:00] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:00] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:00] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:36] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:40] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:43] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:43] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:45] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:45] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:02:47] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:29] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:29] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:29] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:29] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:31] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:31] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:31] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 16:03:31] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:12] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:16] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:19] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:19] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:20] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:20] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:16:23] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:17:44] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:17:44] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:17:44] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:17:44] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:14] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:14] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:46] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:46] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:46] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:18:46] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:11] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:11] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:11] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:11] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:12] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:12] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:12] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:19:14] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:05] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:10] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:56] "[37mGET /static/images/bg.jpg HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:56] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:56] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:22:56] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:09] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:09] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:09] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:09] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:10] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:25] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:25] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:26] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:23:26] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:24:34] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:08] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:08] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:08] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:08] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:09] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:09] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:09] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:09] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:25:45] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:33] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:41] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:43] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:43] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:44] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:29:44] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:05] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:07] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:11] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:11] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:12] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:31:14] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:01] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:04] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:07] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:07] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:07] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:32:11] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:04] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:06] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:09] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:09] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:10] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:37:14] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:38:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:38:34] "[32mGET /disinfection_car/login HTTP/1.1[0m" 302 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:38:34] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:38:34] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:38:37] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:25] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:25] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:25] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:25] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:55] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:41:55] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:13] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:13] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:13] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:13] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:35] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:35] "[37mGET /static/css/control.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:35] "[37mGET /static/css/toastr.css HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:35] "[37mGET /static/toastr.min.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 18:42:36] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:25] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:29] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:31] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:31] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:32] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:20:37] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:53] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:56] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:58] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:58] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:23:59] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:24:02] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:24:51] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:25:09] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:25:38] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:25:39] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:27:28] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 20:27:29] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:11:53] "[33mGET / HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:11:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:12:14] "[37mGET /disinfection_car/login HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:12:16] "[32mPOST /disinfection_car/login HTTP/1.1[0m" 302 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:12:16] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:12:17] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:12:19] "[37mGET /static/toastr.js.map HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[37mGET /disinfection_car/status HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[37mGET /static/socket-mqtt.js HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[36mGET /static/images/left.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[36mGET /static/images/forward.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[36mGET /static/images/stop.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[36mGET /static/images/backward.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:12] "[36mGET /static/images/right.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:13] "[37mGET /socket.io/?EIO=4&transport=polling&t=Nbc68L8 HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:13] "[36mGET /static/images/location.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:13] "[36mGET /static/images/map.png HTTP/1.1[0m" 304 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mPOST /socket.io/?EIO=4&transport=polling&t=Nbc68Rw&sid=UI4oY_qYwj3v6L7VAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mGET /socket.io/?EIO=4&transport=polling&t=Nbc68Rx&sid=UI4oY_qYwj3v6L7VAAAA HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: odom, qos: 0
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mPOST /socket.io/?EIO=4&transport=polling&t=Nbc68Yi&sid=UI4oY_qYwj3v6L7VAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mPOST /socket.io/?EIO=4&transport=polling&t=Nbc68Zc&sid=UI4oY_qYwj3v6L7VAAAA HTTP/1.1[0m" 200 -
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mGET /socket.io/?EIO=4&transport=polling&t=Nbc68YK&sid=UI4oY_qYwj3v6L7VAAAA HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:14] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:19:15] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:23:41] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:23:43] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:26:19] "[37mGET /disinfection_car/home HTTP/1.1[0m" 200 -
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: origin
+WARNING D:\anaconda\envs\network\lib\site-packages\flask_cors\core.py:362 Unknown option passed to Flask-CORS: headers
+INFO D:\anaconda\envs\network\lib\site-packages\werkzeug\_internal.py:113 127.0.0.1 - - [13/May/2021 22:26:19] "[37mGET /rtmp_address HTTP/1.1[0m" 200 -
+DEBUG D:\anaconda\envs\network\lib\site-packages\flask_mqtt\__init__.py:313 Subscribed to topic: warning, qos: 0
