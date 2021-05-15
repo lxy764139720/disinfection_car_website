@@ -1,38 +1,17 @@
-from flask_cors import CORS, cross_origin
-from werkzeug.wrappers import Response
-
-from flask import session, redirect, url_for, render_template, Response, request, jsonify, make_response
-# from utils.camera import VideoCamera
+from flask import session, redirect, url_for, render_template, request, jsonify, make_response
 from config import create_app
-import json
-from flask import Flask, render_template
 
-app, mqtt, socketio = create_app('dev')
-CORS(app)
-
-video_camera = None
-global_frame = None
+app, mqtt, socketio = create_app('pro')
 
 
 # 主页
 @app.route('/disinfection_car/home')
-@cross_origin(origin='localhost', headers=['Content- Type', 'Authorization'])
 def index():
     # 模板渲染
     username = session.get("username")
     if not username:
         return redirect(url_for("login"))
     return render_template("index.html")
-
-
-# 主页
-@app.route('/disinfection_car/status')
-def status():
-    # 模板渲染
-    username = session.get("username")
-    if not username:
-        return redirect(url_for("login"))
-    return render_template("status.html")
 
 
 # 登录
@@ -70,62 +49,10 @@ def logout():
     return redirect(url_for("login"))
 
 
-# # 视频流
-# @app.route('/disinfection_car/video_viewer')
-# def video_viewer():
-#     # 模板渲染
-#     username = session.get("username")
-#     if not username:
-#         return redirect(url_for("login"))
-#     return Response(video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
-
-
-# # 录制状态
-# @app.route('/disinfection_car/record_status', methods=['POST'])
-# def record_status():
-#     global video_camera
-#     if video_camera is None:
-#         video_camera = VideoCamera()
-#
-#     json = request.get_json()
-#
-#     status = json['status']
-#
-#     if status == "true":
-#         video_camera.start_record()
-#         return jsonify(result="started")
-#     else:
-#         video_camera.stop_record()
-#         return jsonify(result="stopped")
-
-
-# # 获取视频流
-# def video_stream():
-#     global video_camera
-#     global global_frame
-#
-#     if video_camera is None:
-#         video_camera = VideoCamera()
-#
-#     while True:
-#         frame, no_mask_warning = video_camera.get_inferred_frame('', conf_thresh=0.5)
-#
-#         if frame is not None:
-#             global_frame = frame
-#             yield (b'--frame\r\n'
-#                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-#         else:
-#             yield (b'--frame\r\n'
-#                    b'Content-Type: image/jpeg\r\n\r\n' + global_frame + b'\r\n\r\n')
-#
-#         if no_mask_warning:
-#             socketio.emit('no_mask_warning')
-#             mqtt.publish('warning', 'no_mask')
-
 @app.route('/rtmp_address')
-@cross_origin(origin='localhost', headers=['Content- Type', 'Authorization'])
 def add_numbers():
-    res = make_response(jsonify(result='http://120.55.55.230:8181/live?port=1965&app=live&stream=cs'))
+    video_address = 'http://120.55.55.230:8181/live?port=1965&app=live&stream=cs'
+    res = make_response(jsonify(result=video_address))
     res.headers['Access-Control-Allow-Origin'] = '*'
     res.headers['Access-Control-Allow-Methods'] = 'GET'
     res.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
@@ -198,5 +125,5 @@ def handle_logging(client, userdata, level, buf):
 
 
 if __name__ == '__main__':
-    # app.run(threaded=True, host="0.0.0.0")
-    socketio.run(app, host='0.0.0.0', port=5000, use_reloader=False, debug=True)
+    socketio.run(threaded=True, port=5000, host="0.0.0.0")
+    # socketio.run(app, host='0.0.0.0', port=5000, use_reloader=False, debug=True)

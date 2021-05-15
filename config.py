@@ -67,6 +67,7 @@ def create_app(config_type):  # 封装web应用的创建过程
     # 根据类型取出对应的配置子类
     config_class = config_dict[config_type]
     app = Flask(__name__)
+    CORS(app)
     app.config.from_object(config_class)
     mqtt = Mqtt(app)
     socketio = SocketIO(app)
