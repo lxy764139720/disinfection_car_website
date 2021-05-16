@@ -105,7 +105,7 @@
              style="width: 640px; height: 480px; float: left; margin-left: 5px; margin-right: 5px">
             <div class="panel-heading">视频监控</div>
             <div class="panel-body" style="padding: 0">
-                <video id="videoElement" class="centeredVideo" controls muted width="640" height="440"
+                <video id="videoElement" class="centeredVideo" controls muted width="640" height="438"
                        crossorigin="anonymous">Your browser is too old which doesn't support HTML5 video.
                 </video>
             </div>
@@ -113,8 +113,10 @@
         <div class="panel panel-default"
              style="width: 640px; height: 480px; float: left; margin-left: 5px; margin-right: 5px">
             <div class="panel-heading">地图监控</div>
-            <div class="panel-body" style="padding: 0">
-                <canvas id="map" width="640" height="480"></canvas>
+            <div class="panel-body" style="padding: 0; position: relative">
+                <canvas id="map" width="640" height="480" style="position:absolute; z-index:2"></canvas>
+                <img src="../static/images/map.png" class="canvas_bgp" alt="" style="position:absolute; z-index:1"
+                     width="640" height="440">
             </div>
         </div>
     </div>
@@ -126,46 +128,45 @@
                 <div class="info-panel-left" style="width: 50%; float: left; padding-right: 5px">
                     <div style="float: left; margin-right: 10px">底盘电量</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
-                             style="width: 10%; min-width: 2em;">
-                            10%
+                        <div id="chassis_power" class="progress-bar progress-bar-success progress-bar-striped active"
+                             role="progressbar" style="width: 100%; min-width: 2em;">
+                            无
                         </div>
                     </div>
                     <div style="float: left; margin-right: 10px">主机电量</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
-                             style="width: 20%; min-width: 2em;">
-                            20%
+                        <div id="host_power" class="progress-bar progress-bar-info progress-bar-striped active"
+                             role="progressbar" style="width: 100%; min-width: 2em;">
+                            无
                         </div>
                     </div>
                     <div style="float: left; margin-right: 10px">消毒液量</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
-                             style="width: 62%; min-width: 2em;">
-                            62%
+                        <div id="capacity" style="width: 0; min-width: 2em;"
+                             class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar">
+                            无
                         </div>
                     </div>
-
                 </div>
                 <div class="info-panel-right" style="width: 50%; float: left; padding-left: 5px">
                     <div style="float: left; margin-right: 10px">当前温度</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
-                             style="width: 31%; min-width: 2em;">
-                            31℃
+                        <div id="temperature" class="progress-bar progress-bar-danger progress-bar-striped active"
+                             role="progressbar" style="width: 0; min-width: 2em;">
+                            无
                         </div>
                     </div>
                     <div style="float: left; margin-right: 10px">当前湿度</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
-                             style="width: 58%; min-width: 2em;">
-                            58%
+                        <div id="humidity" class="progress-bar progress-bar-danger progress-bar-striped active"
+                             role="progressbar" style="width: 0; min-width: 2em;">
+                            无
                         </div>
                     </div>
                     <div style="width: 50%; float: left"><a href="#">未佩戴口罩
                         <span id="no_mask" class="badge">0</span></a></div>
-                    <div style="width: 50%; float: left"><a href="#">垃圾桶倾倒
-                        <span id="trash_bin_dump" class="badge">1</span></a></div>
+                    <!-- <div style="width: 50%; float: left"><a href="#">垃圾桶倾倒
+                        <span id="trash_bin_dump" class="badge">1</span></a></div> -->
                 </div>
             </div>
         </div>
@@ -177,40 +178,37 @@
                     <div>
                         <div class="btn-group-sm" role="group" style="margin-bottom: 10px">
                             <button type="button" class="btn btn-default"
-                                    onclick="send_cmd(1); toastr.clear(); toastr.success('已发送开启紫外线消毒命令')">开启紫外线消毒
+                                    onclick="send_cmd('ou'); toastr.clear(); toastr.success('已发送开启紫外线消毒命令')">开启紫外线消毒
                             </button>
                             <button type="button" class="btn btn-default"
-                                    onclick="send_cmd(0); toastr.clear(); toastr.success('已发送关闭紫外线消毒命令')">关闭紫外线消毒
+                                    onclick="send_cmd('cu'); toastr.clear(); toastr.success('已发送关闭紫外线消毒命令')">关闭紫外线消毒
+                            </button>
+                            <button type="button" class="btn btn-default"
+                                    onclick="openVideo(); toastr.clear(); toastr.success('已开启口罩佩戴检测视频流传输')">开启视频
                             </button>
                         </div>
                     </div>
                     <div>
                         <div class="btn-group-sm" role="group" style="margin-bottom: 10px">
                             <button type="button" class="btn btn-default"
-                                    onclick="send_cmd(3); toastr.clear(); toastr.success('已发送开启喷洒消毒命令')">开启喷洒消毒
+                                    onclick="send_cmd('ow'); toastr.clear(); toastr.success('已发送开启喷洒消毒命令')">开启喷洒消毒
                             </button>
                             <button type="button" class="btn btn-default"
-                                    onclick="send_cmd(4); toastr.clear(); toastr.success('已发送停止喷洒消毒命令')">停止喷洒消毒
+                                    onclick="send_cmd('cw'); toastr.clear(); toastr.success('已发送停止喷洒消毒命令')">停止喷洒消毒
                             </button>
                         </div>
                     </div>
                     <div>
                         <div class="btn-group-sm" role="group">
-                            <button type="button" class="btn btn-default"
-                                    onclick="hideControl(); toastr.clear(); toastr.success('已开启全面消杀模式')">全面消杀模式
+                            <button type="button" class="btn btn-default" onclick="overallMode()">全面消杀模式</button>
+                            <button id="focus_mode" type="button" class="btn btn-default" onclick="focusMode()">重点消杀模式
                             </button>
-                            <button type="button" class="btn btn-default"
-                                    onclick="hideControl(); toastr.clear(); toastr.success('已开启重点消杀模式')">重点消杀模式
-                            </button>
-                            <button type="button" class="btn btn-default"
-                                    onclick="displayControl(); toastr.clear(); toastr.success('请使用鼠标或键盘进行控制', '已开启人工控制模式')">
-                                人工控制模式
-                            </button>
+                            <button type="button" class="btn btn-default" onclick="manualMode()">人工控制模式</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="change_camera_direction" style="visibility: hidden">
+                <div class="control_direction" style="visibility: hidden">
                     <div class="direction_div left_direction">
                         <input class="camera_img_left" type="image" alt="" src="../static/images/left.png"
                                onclick="left_direction()">

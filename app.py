@@ -62,15 +62,14 @@ def add_numbers():
 @socketio.on('connect_message')
 def handle_my_custom_event(json_data):
     print('connect_message')
-    print(json_data)
+    print('已连接前端socket')
 
 
 # 前端发来"订阅"消息，订阅odom主题
 @socketio.on('subscribe')
 def handle_subscribe(json_data):
     # data = json.loads(json_data)
-    print('subscribe')
-    print(json_data)
+    print('已订阅主题')
     mqtt.subscribe(json_data['topic'])
 
 
@@ -78,15 +77,7 @@ def handle_subscribe(json_data):
 @socketio.on('publish')
 def handle_publish(json_data):
     # data = json.loads(json_data)
-    print('publish')
-    print(json_data)
-    mqtt.publish(json_data['topic'], json_data['message'])
-
-
-# 前端发来控制方向消息，转发到mqtt服务器
-@socketio.on('direction')
-def handle_direction(json_data):
-    print('direction')
+    print('向MQTT发送消息：')
     print(json_data)
     mqtt.publish(json_data['topic'], json_data['message'])
 
@@ -98,20 +89,27 @@ def handle_toast():
 
 @mqtt.on_connect()
 def handle_connect(client, userdata, flags, rc):
-    print('on_connect')
+    print('已连接MQTT服务器')
     mqtt.subscribe('warning')
 
 
 # mqtt服务器发来消息，转发到前端
 @mqtt.on_message()
 def handle_mqtt_message(client, userdata, message):
-    data = dict(
-        topic=message.topic,
-        payload=message.payload.decode()
-    )
-    print(message)
+    data = dict(topic=message.topic, payload=message.payload.decode())
+    print(message.topic, message.payload)
     if message.topic == 'odom':
         socketio.emit('odom', data=data)
+    if message.topic == 'no_mask_warning':
+        socketio.emit('no_mask_warning')
+    if message.topic == 'car_sensor_temperature':
+        socketio.emit('car_sensor_temperature', data=data)
+    if message.topic == 'car_sensor_humidity':
+        socketio.emit('car_sensor_humidity', data=data)
+    if message.topic == 'car_sensor_capacity':
+        socketio.emit('car_sensor_capacity', data=data)
+    if message.topic == 'car_sensor_voltage':
+        socketio.emit('car_sensor_voltage', data=data)
 
 
 @socketio.on('unsubscribe_all')

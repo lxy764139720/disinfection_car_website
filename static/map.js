@@ -6,16 +6,34 @@ function initDraw() {
     var canvas = document.getElementById('map');
     if (!canvas.getContext) return;
     var ctx = canvas.getContext("2d");
-    var map = new Image();
-    var img = new Image();
-    map.onload = function () {
-        ctx.drawImage(map, 0, 0, 640, 440);
+    // var map = new Image();
+    // var img = new Image();
+    var goal = new Image();
+    canvas.onmousedown = function (e) {
+        if (mode === 'focus') {
+            var canvas_position = getPointOnCanvas(canvas, e.pageX, e.pageY);
+            canvas_x = canvas_position.x;
+            canvas_y = canvas_position.y;
+            ctx.drawImage(goal, canvas_x, canvas_y, 20, 20);
+        }
     }
-    img.onload = function () {
-        ctx.drawImage(img, 546, 20, 20, 20);
-    }
-    map.src = "../static/images/map.png";
-    img.src = "../static/images/location.png"; // 设置图片源地址
+    // map.onload = function () {
+    //     ctx.drawImage(map, 0, 0, 640, 440);
+    // }
+    // img.onload = function () {
+    //     ctx.drawImage(img, 30, 30, 20, 20);
+    // }
+    // map.src = "../static/images/map.png";
+    // img.src = "../static/images/location.png"; // 设置图片源地址
+    goal.src = "../static/images/goal.png"
+}
+
+function getPointOnCanvas(canvas, x, y) {
+    var bbox = canvas.getBoundingClientRect();
+    return {
+        x: x - bbox.left * (canvas.width / bbox.width),
+        y: y - bbox.top * (canvas.height / bbox.height)
+    };
 }
 
 function display(msg) {
