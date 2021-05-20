@@ -6,6 +6,7 @@ function initDraw() {
     var canvas = document.getElementById('map');
     if (!canvas.getContext) return;
     var ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     // var map = new Image();
     // var img = new Image();
     var goal = new Image();
