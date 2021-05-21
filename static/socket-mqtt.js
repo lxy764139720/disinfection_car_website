@@ -52,6 +52,13 @@ socket.on('car_sensor_voltage', function (msg) {
         chassis_power = 100;
     battery_element.innerText = chassis_power + '%';
     battery_element.style.width = chassis_power + '%';
+
+    var battery_element_2 = document.getElementById("host_power");
+    var host_power = Math.round(parseFloat(msg.payload) / 100);
+    if (host_power > 100)
+        host_power = 100;
+    battery_element_2.innerText = host_power + '%';
+    battery_element_2.style.width = host_power + '%';
 })
 
 function subscribe() {
@@ -96,8 +103,7 @@ function focusMode() {
         toastr.success('请在地图中点选确认', '已切换为重点消杀模式');
         focus_button.innerText = "确认消杀点位";
         document.getElementsByClassName("control_direction")[0].style.visibility = "hidden";//隐藏
-    }
-    else if (focus_button.innerText === "确认消杀点位") {
+    } else if (focus_button.innerText === "确认消杀点位") {
         toastr.success('已发送重点消杀点位', '已切换为重点消杀模式');
         focus_button.innerText = "重点消杀模式";
         document.getElementsByClassName("control_direction")[0].style.visibility = "hidden";//隐藏
